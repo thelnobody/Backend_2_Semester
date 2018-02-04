@@ -12,7 +12,7 @@ languages[4] = { countrycode: 'AFG'
 languages[5] = { countrycode: 'TJK'
     , language: 'Russian', percentage: '9.7', population: '6188000' };
 languages[6] = { countrycode: 'TJK'
-    , language: 'Tadzhik', percentage: '62.2', population: '6188000' };
+    , language: 'Tadzhik', pegit rcentage: '62.2', population: '6188000' };
 languages[7] = { countrycode: 'TJK'
     , language: 'Uzbek', percentage: '23.2', population: '6188000' };
 languages[8] = { countrycode: 'UZB'
