@@ -5,13 +5,19 @@ body{
     padding-top: 50px;
 }
 
-#top{
+.top{
     width: 100%;
     height: auto;
     min-height: 150px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
+
+.top{
+  border-bottom: solid 5px #ededed;
+}
+
+
 nav{
     width: 100%;
     height: auto;

@@ -1,0 +1,31 @@
+body{
+    overflow-y:  scroll;
+    background-color: #ededed;
+    font-family: roboto;
+    padding-top: 50px;
+}
+
+
+/*SCROLL*/
+::-webkit-scrollbar {
+    width: 12px;
+    border-left: solid 1px #1f1f1f;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background:#1f1f1f;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background:#1f1f1f;
+}
+
+
+@media screen and (max-width: 1024px){
+
+}    
+
