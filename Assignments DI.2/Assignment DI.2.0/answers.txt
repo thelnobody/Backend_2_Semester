@@ -1,0 +1,339 @@
+Are maxLength, or minLength allowed on optional name/value pairs?
+
+Based on the basics from Chapter 39 JSON has Number, Boolean, Null, String, Object, and Array as object types. Research whether they all apply as types in JSON-schema. Make an example that proves your answer.
+
+
+
+Make a JSON-schema for the JSON in the section called “Assignment DI.1.0” and perform validation of the JSON
+{
+	"colors": [
+		{
+			"color": "black",
+			"category": "hue",
+			"type": "primary",
+			"code": {
+				"rgba": [255, 255, 255, 1],
+				"hex": "#000"
+			}
+		},
+		{
+			"color": "white",
+			"category": "value",
+			"code": {
+				"rgba": [0, 0, 0, 1],
+				"hex": "#FFF"
+			}
+		},
+		{
+			"color": "red",
+			"category": "hue",
+			"type": "primary",
+			"code": {
+				"rgba": [255, 0, 0, 1],
+				"hex": "#ff0000"
+			}
+		},
+		{
+			"color": "blue",
+			"category": "hue",
+			"type": "primary",
+			"code": {
+				"rgba": [0, 0, 255, 1],
+				"hex": "#00F"
+			}
+		},
+		{
+			"color": "yellow",
+			"category": "hue",
+			"type": "primary",
+			"code": {
+				"rgba": [255, 255, 0, 1],
+				"hex": "#FF0"
+			}
+		},
+		{
+			"color": "green",
+			"category": "hue",
+			"type": "secondary",
+			"code": {
+				"rgba": [0, 255, 0, 1],
+				"hex": "#0F0"
+			}
+		},
+		{
+			"color": "cyan",
+			"category": "hue",
+			"type": "secondary",
+			"code": {
+				"rgba": [0, 255, 255, 1],
+				"hex": "#00ffff"
+			}
+		},
+		{
+			"color": "purple",
+			"category": "hue",
+			"type": "secondary",
+			"code": {
+				"rgba": [153, 50, 204, 1],
+				"hex": "#9932cc"
+			}
+		},
+		{
+			"color": "pink",
+			"category": "hue",
+			"type": "secondary",
+			"code": {
+				"rgba": [255, 192, 203, 1],
+				"hex": "#ffc0cb"
+			}
+		},
+		{
+			"color": "orange",
+			"category": "hue",
+			"type": "secondary",
+			"code": {
+				"rgba": [255, 165, 0, 1],
+				"hex": "#ffa500"
+			}
+		},
+		{
+			"color": "pastel green",
+			"category": "hue",
+			"type": "secondary",
+			"code": {
+				"rgba": [152, 251, 152, 1],
+				"hex": "#98fb98"
+			}
+		},
+		{
+			"color": "pastel blue",
+			"category": "hue",
+			"type": "secondary",
+			"code": {
+				"rgba": [173, 216, 230, 1],
+				"hex": "#add8e6"
+			}
+		},
+		{
+			"color": "crimson red",
+			"category": "hue",
+			"type": "secondary",
+			"code": {
+				"rgba": [220, 20, 60, 1],
+				"hex": "#dc143c"
+			}
+		},
+		{
+			"color": "grey",
+			"category": "hue",
+			"type": "secondary",
+			"code": {
+				"rgba": [128, 128, 128, 1],
+				"hex": "#808080"
+			}
+		},
+		{
+			"color": "light yellow",
+			"category": "hue",
+			"type": "secondary",
+			"code": {
+				"rgba": [253, 253, 150, 1],
+				"hex": "#FDFD96"
+			}
+		},
+		{
+			"color": "brown",
+			"category": "hue",
+			"type": "secondary",
+			"code": {
+				"rgba": [131, 104, 83, 1],
+				"hex": "#836853"
+			}
+		}
+	]
+}
+
+
+RESULT = Valid JSON https://jsonlint.com/
+
+Make a JSON-schema for the JSON in the section called “Assignment DI.1.1” and perform validation of the JSON
+
+{
+	"cities": [{
+			"id": 1,
+			"city": "Sortavala",
+			"lat": 61.6487504,
+			"lon": 30.5926449,
+			"country": "Russia"
+		},
+		{
+			"id": 2,
+			"city": "Yufrus",
+			"lat": 13.45529,
+			"lon": 43.94704,
+			"country": "Yemen"
+		},
+		{
+			"id": 3,
+			"city": "El Nido",
+			"lat": 11.160632,
+			"lon": 119.3978597,
+			"country": "Philippines"
+		},
+		{
+			"id": 4,
+			"city": "Wangsi",
+			"lat": 23.7247599,
+			"lon": 108.8076195,
+			"country": "China"
+		},
+		{
+			"id": 5,
+			"city": "Beiguoyuan",
+			"lat": 36.632873,
+			"lon": 107.288356,
+			"country": "China"
+		},
+		{
+			"id": 6,
+			"city": "Buurhakaba",
+			"lat": 2.7991084,
+			"lon": 44.0793911,
+			"country": "Somalia"
+		},
+		{
+			"id": 7,
+			"city": "Alofi",
+			"lat": -19.0553711,
+			"lon": -169.9178709,
+			"country": "Niue"
+		},
+		{
+			"id": 8,
+			"city": "Bayt ‘Adhāqah",
+			"lat": 15.61576,
+			"lon": 43.70228,
+			"country": "Yemen"
+		},
+		{
+			"id": 9,
+			"city": "Duru",
+			"lat": 31.269454,
+			"lon": 95.63196,
+			"country": "China"
+		},
+		{
+			"id": 10,
+			"city": "Ban Huai Thalaeng",
+			"lat": 14.9649534,
+			"lon": 102.6298251,
+			"country": "Thailand"
+		},
+		{
+			"id": 11,
+			"city": "Oelaba",
+			"lat": -10.7540132,
+			"lon": 122.9104995,
+			"country": "Indonesia"
+		},
+		{
+			"id": 12,
+			"city": "Sindangan",
+			"lat": 8.3104933,
+			"lon": 122.9938347,
+			"country": "Philippines"
+		},
+		{
+			"id": 13,
+			"city": "Rukem",
+			"lat": -6.8013457,
+			"lon": 111.4126837,
+			"country": "Indonesia"
+		},
+		{
+			"id": 14,
+			"city": "Krzczonów",
+			"lat": 49.7371648,
+			"lon": 19.9186389,
+			"country": "Poland"
+		},
+		{
+			"id": 15,
+			"city": "Otrado-Kubanskoye",
+			"lat": 45.245678,
+			"lon": 40.8360129,
+			"country": "Russia"
+		},
+		{
+			"id": 16,
+			"city": "La Cruz",
+			"lat": -34.3998126,
+			"lon": -58.6057651,
+			"country": "Argentina"
+		},
+		{
+			"id": 17,
+			"city": "Mrkonjić Grad",
+			"lat": 44.4186959,
+			"lon": 17.0868199,
+			"country": "Bosnia and Herzegovina"
+		},
+		{
+			"id": 18,
+			"city": "Mehar",
+			"lat": 27.1668637,
+			"lon": 67.8288595,
+			"country": "Pakistan"
+		},
+		{
+			"id": 19,
+			"city": "Mizur",
+			"lat": 42.8509219,
+			"lon": 44.0546008,
+			"country": "Russia"
+		},
+		{
+			"id": 20,
+			"city": "Velké Hoštice",
+			"lat": 49.936089,
+			"lon": 17.9738035,
+			"country": "Czech Republic"
+		}
+	]
+}
+
+RESULT = Valid JSON https://jsonlint.com/
+
+Make a JSON-schema for the JSON in the section called “Assignment DI.1.2” and perform validation of the JSON
+
+{
+	"countries ": [{
+			"speakers": "5459",
+			"language": "Dutch",
+			"countrycode": "ABW"
+		},
+		{
+			"speakers": "9785",
+			"language": "English",
+			"countrycode": "ABW"
+		},
+		{
+			"speakers": "79001",
+			"language": "Papiamento",
+			"countrycode": "ABW"
+		},
+		{
+			"speakers": "7622",
+			"language": "Spanish",
+			"countrycode": "ABW"
+		},
+		{
+			"speakers": "204480",
+			"language": "Balochi",
+			"countrycode": "AFG"
+		}
+	]
+}
+
+
+RESULT = Valid JSON https://jsonlint.com/
